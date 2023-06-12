@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.navigation {
+  padding: 0 !important;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-bottom: 3px solid black;
+  padding: 0;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.navbar-collapse {
+  border: 1px solid black;
+}
+li.nav-item {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.foodllc h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+.mb-2 {
+  margin-bottom: 0 !important;
+}
+.box {
+  margin-top: 1rem;
+  border: 2px solid black;
+  background-color: #d2d2d2;
+}
+.box h2 {
+  width: 200px;
+  text-align: center;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0;
+  font-size: 20px;
+  margin-left: auto;
+  background-color: #ffb6c1;
+}
+.box p {
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    border: none;
+  }
+}
